@@ -1,5 +1,5 @@
 
-###POSE DETECTION USING MEDIA PIPE
+## POSE DETECTION USING MEDIA PIPE
 
 It was really fun working on this project. I am sharing some of my insights on Pose detection. I am starting with 3 yoga poses - Downdog, Goddesss, and Warrior. This repo is still under development. I will be adding face mesh and hand landmarks also.
 
