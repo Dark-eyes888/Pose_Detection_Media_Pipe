@@ -13,11 +13,7 @@ we can use video,images or web-cam to create dataset for different poses to clas
 I used images and web-cam to gather data and appended all the coordinates into csv. Seperate codes for images and video/webcam are added in this repository. So we can use one or combination of all for better dataset.
 
 
- The total columns created and appended are(4*33 +1 ) -> one is added for classes.
-
-For pose classification, I used xgboost classifier with a training accuracy of 1.0 and validation accuraccy of 0.99. 
-
-The final part, the 2 seperate models were working together- blazepoze for landmark detection and xgboost for classification.
+ The total columns created and appended are(4*33 +1 ) -> one is added for classes.For pose classification, I used xgboost classifier with a training accuracy of 1.0 and validation accuraccy of 0.99. The final part, the 2 seperate models were working together- blazepoze for landmark detection and xgboost for classification.
 
 
 #### The best part, we can train and tune our model for any kind of body movement. It is not limited to specific task or movement. 
