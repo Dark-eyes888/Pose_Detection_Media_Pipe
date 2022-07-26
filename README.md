@@ -20,7 +20,7 @@ For pose classification, I used xgboost classifier with a training accuracy of 1
 The final part, the 2 seperate models were working together- blazepoze for landmark detection and xgboost for classification.
 
 
-# The best part, we can train and tune our model for any kind of body movement. It is not limited to specific task or movement. 
+#### The best part, we can train and tune our model for any kind of body movement. It is not limited to specific task or movement. 
 
 
 
