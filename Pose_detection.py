@@ -57,8 +57,6 @@ def pose_detection(model):
             prob_class=model_gbc.predict_proba(data)[0]
             print(texts,prob_class)
 
-
-            cv.rectangle(img,(20,100),(40,200),(0, 191, 255),-1)
             cv.putText(img,texts,(200,30),cv.FONT_HERSHEY_PLAIN, 2,(255, 0, 255),2,cv.LINE_AA)
         
             cv.imshow('Raw Webcam Feed', img)
