@@ -1,11 +1,10 @@
 
 ## POSE DETECTION USING MEDIA PIPE
 
-It was really fun working on this project. I am sharing some of my insights on Pose detection. I am starting with 3 yoga poses - Downdog, Goddesss, and Warrior. This repo is still under development. I will be adding face mesh and hand landmarks also.
-
-
 This repository consists of pose detection method using media pipe for body landmarks detection and drawing. 
 The code is divided into 5 parts: base.py, img_df.py, video_df.py,  model.py, pose_detection.py
+
+It was really fun working on this project. I am sharing some of my insights on Pose detection. I am starting with 3 yoga poses - Downdog, Goddesss, and Warrior. This repo is still under development. I will be adding face mesh and hand landmarks also.
 
 The Base.py file contains basic media pipe landmark detection and gathering x,y,z,visibility coordinates of all 33 landmarks into a csv.
  
