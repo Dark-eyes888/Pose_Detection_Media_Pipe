@@ -10,7 +10,7 @@ import cv2 as cv
 def img_values():
     mp_drawing,mp_pose=media_pipe()
     
-    pose_name=os.listdir(r'C:\Users\adm88\ML_deployment\Object_detection\yoga_pose_media_pipe\TEST')
+    pose_name=os.listdir(r'yoga_pose_media_pipe\TEST')
 
     with mp_pose.Pose(model_complexity=2,static_image_mode=True,min_detection_confidence=0.5,min_tracking_confidence=0.5) as pose:
 
